@@ -1,4 +1,5 @@
 import { Header } from './header'
+import { Catagory } from './catagory'
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <header className="App-header">
       <Header/>
       </header>
+      <Catagory/>
     </div>
   );
 }
