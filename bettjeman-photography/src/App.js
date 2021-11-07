@@ -1,5 +1,6 @@
 import { Header } from './header'
 import { Catagory } from './catagory'
+//import { Birds } from './birds'
 
 function App() {
   return (
