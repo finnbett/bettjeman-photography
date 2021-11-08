@@ -4,7 +4,7 @@ import React from "react";
 export default function Birds() {
     return (
     <>
-    <div>
+    <div className= "catagory-images">
         <img src="images/birds/IMG_3091.jpg" alt="" />
         <img src="images/birds/IMG_3286.jpg" alt="" />
         <img src="images/birds/IMG_3328.jpg" alt="" />

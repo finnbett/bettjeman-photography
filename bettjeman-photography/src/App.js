@@ -3,10 +3,9 @@ import { Catagory } from './catagory'
 import { Route, Routes } from "react-router";
 import  Birds  from './birds'
 import Landscape from './landscape';
-//import { Landscape} from './landscape
-//import { Other-animals } form './other-animals
-//import { Night } form './night
-//import { Plants } from './plants
+import  Night  from './night'
+import OtherAnimals from './other-animals';
+import  Plants  from './plants'
 
 function App() {
   return (<>
@@ -18,6 +17,9 @@ function App() {
         <Route path= "/" element={<Catagory/>}/>
         <Route path="/birds" element= {<Birds/>}/>
         <Route path="/landscape" element= {<Landscape/>}/>
+        <Route path="/night" element= {<Night/>}/>
+        <Route path="/other-animals" element= {<OtherAnimals/>}/>
+        <Route path="/plants" element= {<Plants/>}/>
       </Routes>
     </div>
    

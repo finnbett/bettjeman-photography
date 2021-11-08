@@ -6,11 +6,11 @@ import { Route, Routes } from "react-router";
 export function Catagory () {
     return (
         <>
+        <h2>Please select a catagory</h2>
         <div className="container">
 
             <div className="image-container">
-                <Link to="/birds">
-                   
+                <Link to="/birds">  
                 <img src="images/birds/IMG_3091.jpg" alt="" />
                 <div className="bird">Birds</div>
                 </Link>
