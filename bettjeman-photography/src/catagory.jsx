@@ -1,11 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Birds from "./birds";
+import Plants from "./plants"
+import { Route, Routes } from "react-router";
 export function Catagory () {
     return (
         <>
         <div className="container">
+
             <div className="image-container">
                 <Link to="/birds">
+                   
                 <img src="images/birds/IMG_3091.jpg" alt="" />
                 <div className="bird">Birds</div>
                 </Link>
@@ -34,7 +39,10 @@ export function Catagory () {
                 <div className="plants">Plants</div>
                 </Link>
             </div>
+        
         </div>
+
+        
 
 
         </>
