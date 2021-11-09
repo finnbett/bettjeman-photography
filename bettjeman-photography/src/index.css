@@ -129,6 +129,15 @@ h2 {
   padding-bottom: 0.25em;
   color: #b6b7c2
 }
+.homeLink {
+  text-decoration: none;
+  font-size: 2em;
+  color: #b6b7c2;
+}
+.homeLink:hover {
+  color: white;
+  transition: 0.1s;
+}
 .catagory-images {
   padding-top: 3.5em;
 }
