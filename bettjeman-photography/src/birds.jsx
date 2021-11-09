@@ -1,12 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 export default function Birds() {
     return (
     <>
     <div className= "catagory-images">
-        <img src="images/birds/IMG_3091.jpg" alt="" />
-        <img src="images/birds/IMG_3286.jpg" alt="" />
+        <Link to="/LargeImage/IMG_3091"><img src="images/birds/IMG_3091.jpg" alt="" /></Link>
+        <Link to="/LargeImage/IMG_3286"><img src="images/birds/IMG_3286.jpg" alt="" /></Link>
         <img src="images/birds/IMG_3328.jpg" alt="" />
         <img src="images/birds/IMG_3626.jpg" alt="" />
         <img src="images/birds/IMG_3675.jpg" alt="" />

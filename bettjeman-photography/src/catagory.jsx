@@ -6,7 +6,7 @@ import { Route, Routes } from "react-router";
 export function Catagory () {
     return (
         <>
-        <h2>Please select a catagory</h2>
+        <h2>Please select a category</h2>
         <div className="container">
 
             <div className="image-container">
