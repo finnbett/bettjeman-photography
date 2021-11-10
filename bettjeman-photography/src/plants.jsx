@@ -16,7 +16,7 @@ export default function Plants () {
         <Link to="/LargeImage/IMG_2644"><img src="images/plants/IMG_2644.jpg" alt="" /></Link>
         <Link to="/LargeImage/IMG_7648"><img src="images/plants/IMG_7648.jpg" alt="" /></Link>
         <Link to="/LargeImage/IMG_2672"><img src="images/plants/IMG_2672.jpg" alt="" /></Link>
-        <Link to="/LargeImage/IMG_water final"><img src="images/plants/water final.jpg" alt="" /></Link>
+        <Link to="/LargeImage/water final"><img src="images/plants/water final.jpg" alt="" /></Link>
         <Link to="/LargeImage/DSC_1155"><img src="images/plants/DSC_1155.jpg" alt="" /></Link>
         </div>
         </>

@@ -30,4 +30,4 @@ export default function LargeImage() {
             )
             
         }
-        // <img src="/images/"+photo.type + "/" + photo.image + ".jpg" alt="" />
+        

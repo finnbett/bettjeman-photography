@@ -548,5 +548,6 @@ export default [
         focalLength: '100mm',
         type: 'plants'
 
-    }]
+    }
+]
     
