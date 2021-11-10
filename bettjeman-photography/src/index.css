@@ -31,6 +31,38 @@ img:hover {
   transition: 0.5s;
 
 }
+.large-image {
+  width: 1200px;
+  height: 800px;
+  opacity: 1;
+}
+.large-image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  color: #b6b7c2;
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+span {
+  font-weight: bold;
+}
+.settings-header {
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+  border-bottom: 4px solid #b6b7c2;
+}
+.list-container {
+  text-align: left;
+  margin-left: 1em;
+}
+
 .image-container {
   position: relative;
 }

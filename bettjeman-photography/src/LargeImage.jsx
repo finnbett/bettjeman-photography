@@ -13,10 +13,18 @@ export default function LargeImage() {
 
     return (
         <>
-       
-             <img src={"/images/" + photo.type + "/" + photo.image + ".jpg"} alt="" />
-             <h1>{photo.image}</h1>
-             <h1>{photo.ISO}</h1>
+            <div className= "large-image-container">
+             <img className="large-image" src={"/images/" + photo.type + "/" + photo.image + ".jpg"} alt="" />
+                <div className="list-container">
+                    <h2 className="settings-header">Camera Settings</h2>
+                <ul>
+                    <li><span>Exposure Time:</span> {photo.exposureTime}</li>
+                    <li><span>Aperture:</span> {photo.aperture}</li>
+                    <li><span>ISO:</span> {photo.ISO}</li>
+                    <li><span>Focal Length:</span> {photo.focalLength}</li>
+                </ul>
+                </div>
+             </div>
              </>
             
             )

@@ -5,7 +5,7 @@ export default function Landscape() {
     return(
         <>
         <div className= "catagory-images">
-        <Link to="/LargeImage/DSC_0029"><img src="images/landscape/DSC_0029.JPG" alt="" /></Link>
+        <Link to="/LargeImage/DSC_0029"><img src="images/landscape/DSC_0029.jpg" alt="" /></Link>
         <Link to="/LargeImage/IMG_9342"><img src="images/landscape/IMG_9342.jpg" alt="" /></Link>
         <Link to="/LargeImage/IMG_9364"><img src="images/landscape/IMG_9364.jpg" alt="" /></Link>
         <Link to="/LargeImage/IMG_5728"><img src="images/landscape/IMG_5728.jpg" alt="" /></Link>
