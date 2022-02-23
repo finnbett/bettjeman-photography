@@ -4,7 +4,8 @@ import React from "react";
     return (
         <>
         <a href="/"className="homeLink">Home</a>
-        <h1>Bettjeman Photography</h1>
+        <h1>Bettjeman Photography</h1>        
         </>
     )
 }
+
